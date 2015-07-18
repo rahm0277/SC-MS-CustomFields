@@ -66,10 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Configs\App_Config\xCustomFieldTypes.config" />
+    <None Include="Packages\MS Custom Fields-1.0.zip" />
+    <None Include="Packages\MS Custom Fields-Items-Only-1.0.zip" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Packages\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
